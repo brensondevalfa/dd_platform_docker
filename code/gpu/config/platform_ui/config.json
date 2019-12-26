@@ -28,9 +28,9 @@
         }
       },
       {
-        "name": "worker_cpu_1",
+        "name": "deepdetect_cpu",
         "settings": {
-          "path": "/api/worker_cpu_1",
+          "path": "/api/deepdetect_cpu",
           "isWritable": true
         }
       }
