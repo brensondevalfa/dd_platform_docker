@@ -39,6 +39,21 @@ services:
     restart: always
     volumes:
       - ${DD_PLATFORM}:/opt/platform
+      
+  #
+  # Deepdetect cpu
+  #
+
+  deepdetect_cpu:
+    container_name: jolibrain_deepdetect_cpu
+    image: 'jolibrain/deepdetect_cpu'
+    restart: always
+    cpu_count: 6
+    ports:
+      - '127.0.0.1:8085:8080'
+    volumes:
+      - ${DD_PLATFORM}:/opt/platform
+
 
   #
   # nginx
