@@ -26,6 +26,13 @@
           "isWritable": true,
           "sameOrigin": true
         }
+      },
+      {
+        "name": "worker_cpu_1",
+        "settings": {
+          "path": "/api/worker_cpu_1",
+          "isWritable": true
+        }
       }
     ],
     "services": {
